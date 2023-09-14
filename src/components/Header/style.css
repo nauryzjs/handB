@@ -1,0 +1,73 @@
+.header {
+    padding: 40px 380px;
+    min-height: 85vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* background-color: #ffffff; Пастельный фиолетовый фон */
+    background-image: url('./../../img/header-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+
+    color: var(--header-text);
+    text-align: center;
+}
+
+.header__wrapper {
+    padding: 0 15px;
+    /* max-width: 600px; */
+}
+
+.header__title {
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.4;
+    color: #407677; /* Используйте женственный цвет для заголовка */
+}
+
+.header__title strong {
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'Roboto';
+}
+
+.header__title em {
+    font-style: normal;
+    animation: rainbowText 5s linear infinite;
+}
+
+@keyframes rainbowText {
+    0% {
+        color: rgb(186, 15, 15);
+    }
+    20% {
+        color: orange;
+    }
+    40% {
+        color: yellow;
+    }
+    60% {
+        color: green;
+    }
+    80% {
+        color: blue;
+    }
+    100% {
+        color: purple;
+    }
+}
+
+.header__text {
+    margin-bottom: 40px;
+    font-size: 18px;
+    line-height: 1.333;
+    color: var(--text-color); /* Используйте цвет текста, сочетающийся с вашей женственной палитрой */
+}
+
+.header__text p + p {
+    margin-top: 0.5em;
+}

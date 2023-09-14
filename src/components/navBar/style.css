@@ -1,0 +1,158 @@
+/* Nav
+
+.nav {
+	padding: 20px 0;
+	background-color: #171718;
+	border-bottom: 1px solid var(--nav-border);
+	color: var(--nav-text);
+	letter-spacing: normal;
+}
+
+.nav-row {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	column-gap: 30px;
+	row-gap: 20px;
+	flex-wrap: wrap;
+}
+
+.logo {
+	margin-right: auto;
+	color: var(--nav-text);
+	font-size: 24px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.logo strong {
+	font-weight: 700;
+}
+
+.nav-list {
+	display: flex;
+	flex-wrap: wrap;
+	row-gap: 10px;
+	align-items: center;
+	column-gap: 40px;
+	font-size: 16px;
+	font-weight: 500;
+	font-family: 'Poppins', sans-serif;
+}
+
+.nav-list__link {
+	color: var(--nav-text);
+	transition: opacity 0.2s ease-in;
+}
+
+.nav-list__link:hover {
+	opacity: 0.8;
+}
+
+.nav-list__link--active {
+	position: relative;
+}
+
+.nav-list__link--active::before {
+	content: '';
+
+	position: absolute;
+	left: 0;
+	top: 100%;
+
+	display: block;
+	height: 2px;
+	width: 100%;
+	background-color: var(--accent);
+} */
+
+
+/* Nav */
+
+.nav {
+    padding: 35px 0;
+    background-color: #407677; /* Нежно-фиолетовый фон */
+    /* border-bottom: 1px solid #E6C4FF; Светло-фиолетовая граница */
+    color: #FFFFFF; /* Фиолетовый текст */
+    letter-spacing: normal;
+}
+
+.nav-row {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    column-gap: 30px;
+    row-gap: 20px;
+    flex-wrap: wrap;
+}
+
+.logo {
+    margin-right: auto;
+    color: #FFFFFF; 
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    /* Добавьте здесь женственные декоративные элементы, например, цветочные украшения */
+}
+
+.logo strong {
+        font-weight: 700;
+        font-style: normal;
+        /* animation: rainbowText 5s linear infinite; */
+}   
+/* @keyframes rainbowText {
+        0% {
+            color: rgb(186, 15, 15);
+        }
+        20% {
+            color: orange;
+        }
+        40% {
+            color: yellow;
+        }
+        60% {
+            color: green;
+        }
+        80% {
+            color: blue;
+        }
+        100% {
+            color: purple;
+        }
+} */
+
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    align-items: center;
+    column-gap: 40px;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Roboto';
+}
+
+.nav-list__link {
+    color: #FFFFFF; 
+    transition: opacity 0.2s ease-in;
+}
+
+.nav-list__link:hover {
+    opacity: 0.8;
+}
+
+.nav-list__link--active {
+    position: relative;
+}
+
+.nav-list__link--active::before {
+    content: '';
+
+    position: absolute;
+    left: 0;
+    top: 100%;
+
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: white; /* Акцентный розовый цвет */
+}
+

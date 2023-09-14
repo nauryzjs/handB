@@ -1,0 +1,126 @@
+/* FAQ.css */
+
+/* FAQ.css */
+
+.faq-list {
+    width: 100%; /* Увеличьте ширину блока, если это необходимо */
+  }
+  
+  .faq-item {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 20px; /* Увеличьте внутренние отступы, чтобы увеличить размер блока */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 18px; /* Увеличьте размер шрифта */
+    color: #fff
+  }
+  
+  .faq-item.open {
+    background-color: #407677;
+  }
+  
+  .faq-answer {
+    display: none;
+    padding: 10px;
+    font-size: 16px; /* Увеличьте размер шрифта для ответа */
+  }
+  
+  .faq-item.open .faq-answer {
+    display: block;
+  }
+
+  /* FAQ.css */
+
+.section3 {
+    background-color: #407677; /* Цвет фона для блока FAQ */
+    padding: 20px; /* Внутренние отступы для блока FAQ */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  .content-list3 {
+    list-style-type: none; /* Уберите маркеры для списка */
+  }
+  
+  .content-list__item3 {
+    margin: 0; /* Уберите внешние отступы для элементов списка */
+  }
+  
+  .faq-title {
+    font-size: 24px; /* Увеличьте размер шрифта для заголовка */
+    color: #fff; /* Цвет текста заголовка */
+    margin-bottom: 20px; /* Отступ снизу для заголовка */
+  }
+  
+  
+
+  /*Архив
+
+
+  /* FAQ.css */
+
+.section3 {
+  background-color: #407677; /* Цвет фона для блока FAQ */
+  background-image: url('08.png');
+  background-repeat: no-repeat;
+  background-size: 200px;
+  background-position: left;
+  padding: 40px 0; /* Внутренние отступы для блока FAQ */
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Выравнивание содержимого по центру по горизонтали */
+}
+
+.content-list3 {
+  list-style-type: none; /* Уберите маркеры для списка */
+  margin: 0; /* Уберите внешние отступы для списка */
+  padding: 0; /* Уберите внутренние отступы для списка */
+}
+
+.content-list__item3 {
+  margin: 20px 0; /* Добавьте внешние отступы сверху и снизу для элементов списка */
+  text-align: center; /* Выравнивание текста по центру */
+}
+
+.faq-title {
+  font-size: 36px; /* Увеличьте размер шрифта для заголовка */
+  color: #fff; /* Цвет текста заголовка */
+  margin-bottom: 30px; /* Увеличьте отступ снизу для заголовка */
+}
+
+.faq-list {
+  width: 100%; /* Увеличьте ширину блока, если это необходимо */
+}
+
+.faq-item {
+  border: 1px solid #ccc;
+  margin: 0 auto; /* Центрируйте блоки FAQ по горизонтали */
+  padding: 20px; /* Увеличьте внутренние отступы, чтобы увеличить размер блока */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 24px; /* Увеличьте размер шрифта */
+  color: #fff;
+  background-color: #407677; /* Установите начальный фон для блока FAQ */
+}
+
+.faq-item:hover {
+  background-color: #304e5c; /* Измените цвет фона при наведении */
+}
+
+.faq-item.open {
+  background-color: #304e5c; /* Установите цвет фона для раскрытого блока FAQ */
+}
+
+.faq-answer {
+  display: none;
+  padding: 10px;
+  font-size: 20px; /* Увеличьте размер шрифта для ответа */
+  color: #fff;
+}
+
+.faq-item.open .faq-answer {
+  display: block;
+}
