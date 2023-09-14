@@ -469,6 +469,7 @@ body {
 	line-height: 1.5;
 	margin-bottom: 10px;
 	font-family: 'Roboto';
+	color: black;
   }
   
   /* Стили для изображения подписи */
@@ -504,6 +505,14 @@ body {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
+}
+.title-222 {
+	color: #000;
+	font-weight: 900;
+	font-size: 50px;
+	font-family: "Roboto";
+	margin-left: 200px;
+	margin-top: 30px;
 }
 
 .title-22222 {
@@ -549,4 +558,5 @@ body {
 	background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
+	background-color: #fff;
 }
