@@ -7,6 +7,7 @@ import Header from "./../components/Header/Header"
 import '../styles/main.css'
 import {motion} from 'framer-motion'
 import {forwardRef} from 'react'
+import Slider from '../components/Slider/Slider';
 
 const textAnimation = {
     hidden: {
@@ -151,6 +152,9 @@ const Home = () => {
                 <div className='bg-section'></div>
             </main>
             </motion.section>
+            <div className='slider'>
+                <Slider/>
+            </div>
         </>
     );
 }

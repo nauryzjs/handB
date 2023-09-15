@@ -561,3 +561,9 @@ body {
     background-position: center;
 	background-color: mintcream;
 }
+
+.slider {
+	min-width: 100%;
+	min-height: 100vh;
+	background-color: #407677;
+}

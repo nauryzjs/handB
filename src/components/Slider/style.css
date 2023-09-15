@@ -1,0 +1,94 @@
+/* style.css */
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative; /* Добавляем относительное позиционирование для контейнера слайдера */
+}
+
+.button {
+  font-size: 24px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+.image {
+  flex: 1;
+  margin: 0 20px;
+  position: relative; /* Добавляем относительное позиционирование для изображения */
+  transition: opacity 0.5s ease-in-out; /* Добавляем эффект плавного затухания для изображения */
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 40px;
+}
+
+.info {
+  flex: 1;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+}
+
+/* Добавляем стили для эффектного перехода слайдов */
+.image-enter {
+  opacity: 0;
+  transform: translateX(100%); /* Скрываем новый слайд справа */
+}
+
+.image-enter-active {
+  opacity: 1;
+  transform: translateX(0); /* Показываем новый слайд с эффектом сдвига */
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.image-exit {
+  opacity: 1;
+}
+
+.image-exit-active {
+  opacity: 0;
+  transform: translateX(-100%); /* Скрываем текущий слайд влево */
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+/* style.css */
+@keyframes slide-enter {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-exit {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Добавим анимацию для изображения и контента при входе и выходе */
+.image-enter, .info-content-enter {
+  animation: slide-enter 0.5s ease-in-out;
+}
+
+.image-exit, .info-content-exit {
+  animation: slide-exit 0.5s ease-in-out;
+}
