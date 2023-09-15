@@ -358,6 +358,7 @@ body {
 	margin-top: 30px;
 	height: 420px;
 	width: 535px;
+	border-radius: 80px;
 }
 
 /* Стили для жирного текста */
@@ -508,20 +509,16 @@ body {
 }
 .title-222 {
 	color: #000;
-	font-weight: 900;
-	font-size: 50px;
-	font-family: "Roboto";
-	margin-left: 200px;
-	margin-top: 30px;
 }
 
 .title-22222 {
 	color: #407677;
 	font-weight: 900;
-	font-size: 50px;
+	font-size: 26px;
 	font-family: "Roboto";
 	margin-left: 200px;
 	margin-top: 30px;
+	text-align: center;
 }
 
 .title-222222 {
@@ -552,11 +549,15 @@ body {
 	margin-left: 120px;
 }
 
+.section2 {
+	background-color: mintcream;
+	padding-top: 1px;
+}
 .bg-section {
 	background-image: url('./../img/09.png');
 	min-height: 100vh;
 	background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
-	background-color: #fff;
+	background-color: mintcream;
 }

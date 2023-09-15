@@ -1,16 +1,16 @@
 .header {
-    padding: 40px 380px;
-    min-height: 85vh;
+    padding:  450px;
+    min-height: 80vh;
     
     display: flex;
     justify-content: center;
     align-items: center;
 
     /* background-color: #ffffff; Пастельный фиолетовый фон */
-    background-image: url('./../../img/header-bg.jpg');
+    background-image: url('./../../img/header-bg2.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    background-position: center;
+    /* background-position: center; */
 
     color: var(--header-text);
     text-align: center;
